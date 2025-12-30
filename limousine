@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Luxury Limo | NYC Executive Transportation</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; color: #111; scroll-behavior: smooth; }
+        .text-gold { color: #b8860b; }
+        .bg-gold { background-color: #b8860b; }
+        section { scroll-margin-top: 90px; }
+
+        input, select, textarea {
+            border: 1px solid #e2e8f0 !important;
+            border-radius: 0px !important;
+            padding: 14px !important;
+            background-color: #fff !important;
+            width: 100%;
+        }
+        input:focus { border-color: #b8860b !important; outline: none; box-shadow: 0 0 0 1px #b8860b; }
+        
+        .class-card {
+            border: 1px solid #f3f4f6;
+            padding: 45px 30px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        .class-card:hover { border-color: #b8860b; background-color: #fafafa; }
+        .disclaimer { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: #9ca3af; }
+    </style>
+</head>
+<body>
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center h-20">
+            <a href="#" class="text-xl font-bold uppercase tracking-tighter">YourLuxury<span class="text-gold">Limo</span></a>
+            <nav class="hidden md:flex space-x-6 text-xs font-bold uppercase tracking-[0.2em] text-gray-500">
+                <a href="#services" class="hover:text-gold transition">Services</a>
+                <a href="#fleet" class="hover:text-gold transition">Vehicles</a>
+                <a href="#pricing" class="hover:text-gold transition">Rates</a>
+                <a href="#contact" class="hover:text-gold transition">Contact</a>
+            </nav>
+            <a href="#booking-form-section" class="bg-black text-white px-6 py-3 text-xs font-bold uppercase tracking-widest hover:bg-gold transition-all">Book Online</a>
+        </div>
+    </header>
+
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-center text-3xl font-light mb-16 uppercase tracking-widest">Our <span class="font-bold text-gold">Professional Services</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="p-8 border border-gray-50 text-center">
+                    <div class="text-3xl mb-4">✈️</div>
+                    <h4 class="font-bold uppercase tracking-widest text-sm mb-4">Airport Transfers</h4>
+                    <p class="text-sm text-gray-500">Service to JFK, LGA, EWR, and HPN. Professional flight tracking included.</p>
+                </div>
+                <div class="p-8 border border-gray-50 text-center">
+                    <div class="text-3xl mb-4">⏱️</div>
+                    <h4 class="font-bold uppercase tracking-widest text-sm mb-4">Hourly Charter</h4>
+                    <p class="text-sm text-gray-500">Flexible "As-Directed" service. 3-hour minimum required for all bookings.</p>
+                </div>
+                <div class="p-8 border border-gray-50 text-center">
+                    <div class="text-3xl mb-4">🏙️</div>
+                    <h4 class="font-bold uppercase tracking-widest text-sm mb-4">Out of Town</h4>
+                    <p class="text-sm text-gray-500">Executive transport for NJ, CT, Westchester, and Long Island areas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fleet" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-center text-3xl font-light mb-16 uppercase tracking-widest">Executive <span class="font-bold">Vehicle Classes</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+                <div class="class-card bg-white shadow-sm">
+                    <h3 class="text-2xl font-bold mb-2">Executive Sedan</h3>
+                    <p class="text-gold font-bold uppercase text-[10px] tracking-[0.2em] mb-6 italic">Cadillac XT6 / Mercedes E-350 / BMW 5 Series</p>
+                    <div class="flex justify-center space-x-10 text-xs font-bold text-gray-400 uppercase tracking-widest">
+                        <span>👤 3 Passengers</span>
+                        <span>🧳 3 Luggage Pieces</span>
+                    </div>
+                </div>
+                <div class="class-card bg-white shadow-sm">
+                    <h3 class="text-2xl font-bold mb-2">Luxury SUV</h3>
+                    <p class="text-gold font-bold uppercase text-[10px] tracking-[0.2em] mb-6 italic">GMC Yukon XL / Lincoln Navigator / Chevy Suburban</p>
+                    <div class="flex justify-center space-x-10 text-xs font-bold text-gray-400 uppercase tracking-widest">
+                        <span>👤 6 Passengers</span>
+                        <span>🧳 6 Luggage Pieces</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-24 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-center text-3xl font-light mb-4 uppercase tracking-widest">Rate <span class="font-bold">Structure</span></h2>
+            <p class="text-center disclaimer mb-12">Plus Tolls, Parking, and Service Fees may apply. Gratuity can be added at checkout.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                <div class="p-10 border border-gray-100 text-center">
+                    <h5 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">NYC 5-Borough Flat Rates</h5>
+                    <div class="text-3xl font-light mb-2">Sedan: <span class="font-bold">$150</span></div>
+                    <div class="text-3xl font-light">SUV: <span class="font-bold">$170</span></div>
+                </div>
+                <div class="p-10 border border-gold text-center">
+                    <h5 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Hourly Charters (3hr Min)</h5>
+                    <div class="text-3xl font-light mb-2">Sedan: <span class="font-bold">$75/hr</span></div>
+                    <div class="text-3xl font-light">SUV: <span class="font-bold">$90/hr</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking-form-section" class="py-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="bg-white p-8 md:p-12 shadow-2xl">
+                <h3 class="text-center text-3xl font-light mb-2 uppercase">Request <span class="font-bold">Booking</span></h3>
+                <p class="text-center text-[10px] text-red-600 font-bold uppercase tracking-widest mb-10 italic">Advanced Booking Required: 12-Hour Lead Time</p>
+                
+                <form id="inquiry-form" onsubmit="submitInquiry(event)" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <select id="vehicleType" name="vehicleType">
+                            <option value="Sedan">Executive Sedan (3 Pax)</option>
+                            <option value="SUV">Luxury SUV (6 Pax)</option>
+                        </select>
+                        <select id="serviceType" name="serviceType" onchange="handleServiceChange()">
+                            <option value="Airport Transfer">Airport Transfer (NYC 5 Boroughs)</option>
+                            <option value="OutOfTown">Out-of-Town / Point-to-Point</option>
+                            <option value="Hourly Charter">Hourly Charter (3hr Minimum)</option>
+                        </select>
+                    </div>
+
+                    <div id="hourly-container" class="hidden">
+                        <label class="block text-[10px] font-bold text-gray-400 uppercase mb-1">Number of Hours</label>
+                        <input type="number" id="hoursCount" name="hoursCount" min="3" value="3">
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <input type="text" id="pickupLocation" name="pickupLocation" placeholder="Full Pickup Address" required>
+                        <input type="text" id="dropoffLocation" name="dropoffLocation" placeholder="Destination Address" required>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div><label class="block text-[10px] font-bold text-gray-400 uppercase mb-1">Trip Date</label><input type="date" id="tripDate" name="tripDate" required></div>
+                        <div><label class="block text-[10px] font-bold text-gray-400 uppercase mb-1">Pickup Time</label><input type="time" id="tripTime" name="tripTime" required></div>
+                    </div>
+
+                    <div class="pt-6 border-t border-gray-100 grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <input type="text" name="fullName" placeholder="Full Name" required>
+                        <input type="email" name="_replyto" placeholder="Email" required>
+                        <input type="tel" name="phone" placeholder="Phone" required>
+                    </div>
+
+                    <p class="text-[9px] text-center text-gray-400 uppercase tracking-widest">By submitting, you acknowledge that Tolls, Parking, and Service Fees are additional.</p>
+                    
+                    <button type="submit" id="submit-button" class="w-full bg-black text-white py-5 font-bold uppercase tracking-widest hover:bg-gold transition-all">Submit Inquiry</button>
+                </form>
+                <div id="confirmation-message" class="hidden text-center mt-10 p-8 border-l-4 border-gold bg-gray-50"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-white border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-2xl font-light mb-12 uppercase tracking-widest">Contact <span class="font-bold text-gold">Dispatch</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h5 class="font-bold uppercase tracking-widest text-[10px] mb-2 text-gray-400">Call Us</h5>
+                    <a href="tel:+14422221174" class="text-xl font-semibold hover:text-gold transition">(44) 2222-1174</a>
+                </div>
+                <div>
+                    <h5 class="font-bold uppercase tracking-widest text-[10px] mb-2 text-gray-400">Email Us</h5>
+                    <a href="mailto:info@yourluxurylimo.com" class="text-xl font-semibold hover:text-gold transition">info@yourluxurylimo.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center text-[10px] uppercase tracking-[0.5em] text-gray-500">
+            &copy; 2025 Your Luxury Limo. Serving NYC, NJ & CT.
+        </div>
+    </footer>
+
+    <script>
+        // 12 HOUR RESTRICTION
+        const dateInput = document.getElementById('tripDate');
+        const timeInput = document.getElementById('tripTime');
+        function updateMinTime() {
+            const now = new Date();
+            const minDateTime = new Date(now.getTime() + (12 * 60 * 60 * 1000));
+            dateInput.min = minDateTime.toISOString().split('T')[0];
+        }
+        updateMinTime();
+
+        function handleServiceChange() {
+            const service = document.getElementById('serviceType').value;
+            const hourContainer = document.getElementById('hourly-container');
+            hourContainer.classList.toggle('hidden', service !== 'Hourly Charter');
+        }
+
+        async function submitInquiry(event) {
+            event.preventDefault();
+            const confirmation = document.getElementById('confirmation-message');
+            const form = document.getElementById('inquiry-form');
+            const submitButton = document.getElementById('submit-button');
+            submitButton.disabled = true;
+
+            try {
+                const response = await fetch('https://formspree.io/f/xpwyedeg', {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: { 'Accept': 'application/json' }
+                });
+
+                if (response.ok) {
+                    form.classList.add('hidden');
+                    const vehicle = form['vehicleType'].value;
+                    const service = form['serviceType'].value;
+                    const pickup = form['pickupLocation'].value.toUpperCase();
+                    const drop = form['dropoffLocation'].value.toUpperCase();
+                    
+                    const boroughs = ["MANHATTAN", "BROOKLYN", "QUEENS", "BRONX", "STATEN ISLAND", "NYC", "NEW YORK"];
+                    const airports = ["JFK", "LGA", "EWR", "HPN"];
+                    const isAirport = airports.some(code => pickup.includes(code) || drop.includes(code));
+                    const isBorough = boroughs.some(b => pickup.includes(b) || drop.includes(b));
+                    
+                    let payLink = null;
+                    let summary = "";
+
+                    if (service === 'Hourly Charter') {
+                        const hrs = parseInt(form['hoursCount'].value) || 3;
+                        const rate = (vehicle === 'SUV') ? 90 : 75;
+                        summary = `Estimated Hourly Total: $${hrs * rate}`;
+                        payLink = (vehicle === 'SUV') ? "https://square.link/u/yXYjNLq0" : "https://square.link/u/Xw5z54ep";
+                    } else if (service === 'Airport Transfer' && isAirport && isBorough) {
+                        if (vehicle === 'SUV') {
+                            payLink = "https://square.link/u/yXYjNLq0";
+                            summary = "NYC Airport Flat Rate: $170";
+                        } else {
+                            payLink = (pickup.includes('EWR') || drop.includes('EWR')) ? "https://square.link/u/A6xGgdum" : "https://square.link/u/Xw5z54ep";
+                            summary = "NYC Airport Flat Rate: $150";
+                        }
+                    } else {
+                        summary = "Custom Route: Manual Quote Required.";
+                    }
+
+                    confirmation.innerHTML = `
+                        <p class='font-bold text-lg mb-2'>Inquiry Received.</p>
+                        <p class='text-sm mb-4'>${summary}</p>
+                        <p class='text-[10px] text-gray-500 mb-6 italic'>*Base rate shown. Tolls, parking, and fees are additional. Gratuity can be added at checkout.</p>
+                    `;
+                    
+                    if (payLink) {
+                        confirmation.innerHTML += `<a href='${payLink}' class='inline-block bg-gold text-white px-10 py-4 font-bold uppercase tracking-widest'>Secure & Confirm Now</a>`;
+                    } else {
+                        confirmation.innerHTML += `<p class='font-bold text-xs uppercase text-gold'>Dispatch will contact you shortly with your custom rate.</p>`;
+                    }
+                    confirmation.classList.remove('hidden');
+                }
+            } catch (e) {
+                alert('Connection error. Please call (44) 2222-1174');
+                submitButton.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>
